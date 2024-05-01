@@ -1,4 +1,4 @@
-# Desciption:
+# Description:
 A starter project for vite tailwindcss + vanillajs
 # How to run:
 ```
