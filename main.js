@@ -5,7 +5,7 @@ import {composedFunction} from './compose.js';
 document.querySelector('#app').innerHTML = `
   <div class="p-5">
     <h1 class="text-3xl mb-5 font-bold underline text-cyan-700">
-      Functional Composition
+      Functional Composition - compose
     </h1>
     <div class="mb-2">
     <p class="text-sm">Function composition is the process of chaining together multiple functions to form a new function.</p>
