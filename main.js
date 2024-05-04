@@ -16,7 +16,7 @@ document.querySelector('#app').innerHTML = `
     2. Easy to predict: Always return the same result, With the same input <span class="text-green-700">(No surprises!)</span>
     </p>
     <p class="text-green-950 text-sm">
-    3. Reusable:  Can be resued in different parts of your code without worrying about side effects affecting other parts <span class="text-green-700">(Hence promoting modularity and maintainability!)</span>
+    3. Reusable:  Can be reused in different parts of your code without worrying about side effects affecting other parts <span class="text-green-700">(Hence promoting modularity and maintainability!)</span>
     </p>
     </div>
     <div class="mb-2">
