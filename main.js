@@ -7,6 +7,13 @@ document.querySelector('#app').innerHTML = `
     <h1 class="text-3xl mb-5 font-bold underline text-cyan-700">
       Functional Composition - pipe
     </h1>
+    <div class="h-[300px] w-[400px]">
+    <img 
+    src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*M66BkV3mHUFs417euzOJaA.jpeg" 
+    alt="composition"
+    class="object-contain h-full w-full"
+    />
+    </div>
     <div class="mb-2">
     <p class="text-sm">Function composition is the process of chaining together multiple functions to form a new function.</p>
     <pre class="text-sm text-cyan-950">
