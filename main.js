@@ -9,7 +9,7 @@ document.querySelector('#app').innerHTML = `
     </h1>
     <div class="h-[300px] w-[400px]">
     <img 
-    src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*M66BkV3mHUFs417euzOJaA.jpeg" 
+    src="https://codebrahma.com/static/65553934ad12c70ddc6ba1ae2411ed2f/9a46a/assembly-line-processing.jpg" 
     alt="composition"
     class="object-contain h-full w-full"
     />
