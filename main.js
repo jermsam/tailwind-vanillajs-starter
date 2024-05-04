@@ -20,7 +20,7 @@ document.querySelector('#app').innerHTML = `
     </pre>
     </div>
     <div class="mb-2">
-    <p class="text-sm">Function composition is the process of chaining together multiple functions to form a new function.</p>
+    <p class="text-sm">Example.</p>
     <pre class="text-sm text-cyan-950">
       const add5 = (x) => x + 5;
       const multiplyBy3 = (x) => x * 3;
