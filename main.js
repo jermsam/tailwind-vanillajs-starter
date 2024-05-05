@@ -23,4 +23,4 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-setupCounter()
+setupCounter('#button')

@@ -56,4 +56,4 @@ export const action = (e) => {
   updateElement(display, content);
 }
 
-export const setupCounter =  eventHandler('click', '#button', action);
+export const setupCounter = (target) => eventHandler('click', target, action)();
