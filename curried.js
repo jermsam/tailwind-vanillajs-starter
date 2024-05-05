@@ -2,9 +2,8 @@ import {curry} from './currying.js';
 
 const reducer = (acc, fn) => fn(acc);
 
-const curriedReducer = curry(reducer);
 
-const pipeHandlerFn = (functions,input) => functions.reduce(curriedReducer, input)
+const pipeHandlerFn = (functions, input) => functions.reduce(reducer, input)
 
 const curriedPipeHandler = curry(pipeHandlerFn)
 
