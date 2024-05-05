@@ -47,7 +47,7 @@ const incrementContent = (element) => {
   return { element, newContent };
 };
 
-const action = (e) => {
+export const action = (e) => {
   e.preventDefault();
   const selectDisplay = selectDomElement('#display')
   const output = pipe(selectDisplay,incrementContent)();
@@ -56,4 +56,4 @@ const action = (e) => {
   updateElement(display, content);
 }
 
-export const setupCounter = eventHandler('click', 'button', action);
+export const setupCounter =  eventHandler('click', '#button', action);
