@@ -4,9 +4,8 @@ export const selectDomElement = (selector) => {
   return () => document.querySelector(selector);
 };
 
-export const addValue = (initialValue, valueToAdd) => {
-  return initialValue + valueToAdd;
-};
+export const addValue = (initialValue, valueToAdd) =>  initialValue + valueToAdd;
+
 
 const calculateUpdatedContent = (element, newVal) => {
   const initialValue = parseInt(element.innerHTML);
@@ -21,13 +20,13 @@ const createUpdatedElement = (element, content) => {
 
 export const replaceElement = (oldElement, newElement) => {
   oldElement.replaceWith(newElement);
+  return newElement; // Return the updated element for potential chaining
 };
 
 export const updateElement = (element, content) => {
   // Handle actual DOM update (replace or modify existing element)
   const updatedElement = createUpdatedElement(element, content);
-  replaceElement(element, updatedElement); // Replace with updated copy
-  return element; // Can return the updated element for potential chaining
+  return replaceElement(element, updatedElement); // Replace with updated copy
 };
 
 export const listenToEvent = (event, action) => {
